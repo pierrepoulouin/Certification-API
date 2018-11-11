@@ -53,7 +53,7 @@ IDE --> Eclipse
 
 ## Ressources : 
 
-Journal de bord : https://docs.google.com/document/d/10ZiAn0koqDatGQSnTN_YBVAvqXrbCnULuw8L_G6Ul0w/edit  
+[Journal de bord](https://docs.google.com/document/d/10ZiAn0koqDatGQSnTN_YBVAvqXrbCnULuw8L_G6Ul0w/edit)  
 
 Lien du trello  : https://trello.com/b/asWJOTCt/certification-simplon
 
