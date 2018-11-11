@@ -7,14 +7,23 @@ Contexte :
 Sprint #0 ------> 09/11 : 
 
 objectif : slide présentation du projet
+
 Contexte (Projet JAVA EE & API)
+
 Création du trello (Product Backlog (colonne) et Sprint Backlog (colonnes suivantes))
+
 Liste des 4 premières features (4 user stories ou plus)
+
 UML (seulement la/les tables dont nous avons besoin)
+
 use case diagram (version 1.0)
+
 class diagram (version 1.0)
+
 Maquette (seulement les pages et/ou morceaux de page utile aux 4 features)
+
 sur marvelapp/ pencil / etc.
+
 lien vers github/gitlab vers votre début projet spring
 
 
