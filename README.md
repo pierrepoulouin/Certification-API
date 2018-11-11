@@ -3,11 +3,11 @@ Projet de certification en fin de formation chez Simplon.co.
 
 ## Sommaire : 
 
-* [Contexte](#Contexte)
-* [Réalisation](#Réalisation)
-* [Technologies](#Technologies)
-* [Ressources](#Ressources)
-* [Cheminement](#Cheminement)
+* [Contexte](#contexte)
+* [Réalisation](#réalisation)
+* [Technologies](technologies)
+* [Ressources](#ressources)
+* [Cheminement](#cheminement)
 
 ## Contexte :
 
