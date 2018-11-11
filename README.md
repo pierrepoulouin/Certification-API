@@ -1,7 +1,26 @@
 # Certification-API
 Projet de certification
 
-Contexte : 
+Contexte : Projet de certification en fin de formation chez Simplon.co.
+
+Le projet portera sur le milieu eSport, il aura pour but de référencer les joueurs professionnels en utilisant une API réutilisable par d'autres sites.
+
+Langage utilisé --> Java
+
+Framework utilisé --> Spring
+
+Mapping --> Hibernate
+
+IDE --> Eclipse
+
+Ressources : 
+Journal de bord : https://docs.google.com/document/d/10ZiAn0koqDatGQSnTN_YBVAvqXrbCnULuw8L_G6Ul0w/edit  
+
+Lien du trello  : https://trello.com/b/asWJOTCt/certification-simplon
+
+Lien du slide : https://docs.google.com/presentation/d/17dLgVlILcpJfaTUyccHGd9Vb9LnV_8bpW2u6G8iZb5A/edit#slide=id.g45d92454c4_0_174.
+
+
 
 
 Sprint #0 ------> 09/11 : 
@@ -27,11 +46,5 @@ sur marvelapp/ pencil / etc.
 lien vers github/gitlab vers votre début projet spring
 
 
-
-Journal de bord : https://docs.google.com/document/d/10ZiAn0koqDatGQSnTN_YBVAvqXrbCnULuw8L_G6Ul0w/edit  
-
-Lien du trello  : https://trello.com/b/asWJOTCt/certification-simplon
-
-Lien du slide : https://docs.google.com/presentation/d/17dLgVlILcpJfaTUyccHGd9Vb9LnV_8bpW2u6G8iZb5A/edit#slide=id.g45d92454c4_0_174.
 
 
