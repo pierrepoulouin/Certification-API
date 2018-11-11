@@ -1,5 +1,5 @@
 # Certification-API
-Projet de certification en fin de formation chez Simplon.co.
+Projet de certification en fin de formation chez Simplon.co. (Le readme sera alimenté au fur des semaines de réalisation)
 
 ## Sommaire : 
 
