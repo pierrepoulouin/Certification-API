@@ -9,9 +9,9 @@ Le projet portera sur le milieu eSport, il aura pour but de référencer les jou
 
 ## **Réalisation** : 
 
-Le projet sera décomposé en 3 sprints (et un sprint O) étendus sur 3 semaines.
+Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines.
 
-09/11 --> Sprint #0
+09/11 --> [Sprint #0 ](../README.md#Spring0)
 
 12/11 -14/11 --> Sprint #1
 
@@ -39,10 +39,9 @@ Lien du trello  : https://trello.com/b/asWJOTCt/certification-simplon
 
 Lien du slide : https://docs.google.com/presentation/d/17dLgVlILcpJfaTUyccHGd9Vb9LnV_8bpW2u6G8iZb5A/edit#slide=id.g45d92454c4_0_174.
 
+## **Cheminement** : 
 
-
-
-Sprint #0 ------> 09/11 : 
+# Sprint #0 ------> 09/11 : 
 
 objectif : slide présentation du projet
 
