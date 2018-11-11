@@ -15,6 +15,17 @@ Projet de certification en fin de formation chez Simplon.co.
 
 Le projet portera sur le milieu eSport, il aura pour but de référencer les joueurs professionnels en utilisant une API réutilisable par d'autres sites.
 
+## Compétences réalisées : 
+
+### Developper une application client-serveur
+
+1. Maquetter une application (zooning/wireframe/mock up etc)
+2. Concevoir une base de données (diagrammes) 
+3. Mettre en place une base de données (MySQL + Jointures + CRUD)* 
+4. Developper une interface utilisateur (UI/UX) (Materials pour les normes) (W3C) 
+5. Développer des composants d'accés aux données (Hibernate, MVC, DAO, drivers, tomcat)
+
+
 ## Réalisation : 
 
 Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines, il y aura ensuite un oral blanc.
