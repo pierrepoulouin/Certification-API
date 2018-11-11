@@ -73,9 +73,9 @@ Liste des 4 premières features (4 user stories ou plus)
 
 UML (seulement la/les tables dont nous avons besoin)
 
-use case diagram (version 1.0)
+use case diagram (version 1.0) --> [ici](https://github.com/pierrepoulouin/Certification-API/tree/master/Ressources/US)
 
-class diagram (version 1.0)
+class diagram (version 1.0) --> [ici](https://github.com/pierrepoulouin/Certification-API/tree/master/Ressources/US)
 
 Maquette (seulement les pages et/ou morceaux de page utile aux 4 features)
 
