@@ -11,7 +11,7 @@ Le projet portera sur le milieu eSport, il aura pour but de référencer les jou
 
 Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines.
 
-09/11 --> [Sprint #0 ](../README.md#Sprint0)
+09/11 --> [Sprint #0 ](Sprint#0)
 
 12/11 -14/11 --> Sprint #1
 
@@ -41,7 +41,7 @@ Lien du slide : https://docs.google.com/presentation/d/17dLgVlILcpJfaTUyccHGd9Vb
 
 ## **Cheminement** : 
 
-# Sprint #0 ------> 09/11 : 
+ Sprint #0 ------> 09/11 : 
 
 objectif : slide présentation du projet
 
