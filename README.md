@@ -4,6 +4,7 @@ Projet de certification en fin de formation chez Simplon.co.
 ## Sommaire : 
 
 * [Contexte](#contexte)
+* [Compétences réalisées](#compétences-réalisées)
 * [Réalisation](#réalisation)
 * [Technologies](#technologies)
 * [Ressources](#ressources)
