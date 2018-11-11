@@ -1,6 +1,13 @@
 # Certification-API
 Projet de certification en fin de formation chez Simplon.co.
 
+## Sommaire : 
+
+* [Contexte](#Contexte)
+* [Réalisation](#Réalisation)
+* [Technologies](#Technologies)
+* [Cheminement](#Cheminement)
+
 ## **Contexte** :
 
 
