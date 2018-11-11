@@ -5,7 +5,7 @@ Projet de certification en fin de formation chez Simplon.co.
 
 * [Contexte](#contexte)
 * [Réalisation](#réalisation)
-* [Technologies](technologies)
+* [Technologies](#technologies)
 * [Ressources](#ressources)
 * [Cheminement](#cheminement)
 
