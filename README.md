@@ -1,9 +1,9 @@
 # Certification-API
-Projet de certification
+Projet de certification en fin de formation chez Simplon.co.
 
 ## **Contexte** :
 
-Projet de certification en fin de formation chez Simplon.co.
+
 
 Le projet portera sur le milieu eSport, il aura pour but de référencer les joueurs professionnels en utilisant une API réutilisable par d'autres sites.
 
@@ -21,7 +21,7 @@ Le projet sera décomposé en 3 sprints (et un sprint O) étendus sur 3 semaines
 
 03/12 --> oraux blanc
 
-
+## **Technologies** :
 
 Langage utilisé --> Java
 
@@ -31,7 +31,7 @@ Mapping --> Hibernate
 
 IDE --> Eclipse
 
-Ressources : 
+## **Ressources** : 
 
 Journal de bord : https://docs.google.com/document/d/10ZiAn0koqDatGQSnTN_YBVAvqXrbCnULuw8L_G6Ul0w/edit  
 
