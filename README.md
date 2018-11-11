@@ -9,15 +9,15 @@ Le projet portera sur le milieu eSport, il aura pour but de référencer les jou
 
 ## **Réalisation** : 
 
-Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines.
+Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines, il y aura ensuite un oral blanc.
 
 09/11 --> Sprint #0 
 
-12/11 -14/11 --> Sprint #1
+12/11 - 14/11 --> Sprint #1
 
-19/11 --> Sprint #2
+19/11 - 23/11 --> Sprint #2
 
-26/11 --> Sprint #3
+26/11 - 30/11 --> Sprint #3
 
 03/12 --> oraux blanc
 
