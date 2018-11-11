@@ -1,11 +1,25 @@
 # Certification-API
 Projet de certification
 
-## **Contexte** : Projet de certification en fin de formation chez Simplon.co.
+## **Contexte** :
+
+Projet de certification en fin de formation chez Simplon.co.
 
 Le projet portera sur le milieu eSport, il aura pour but de référencer les joueurs professionnels en utilisant une API réutilisable par d'autres sites.
 
 ## **Réalisation** : 
+
+Le projet sera décomposé en 3 sprints (et un sprint O) étendus sur 3 semaines.
+
+09/11 --> Sprint #0
+
+12/11 -14/11 --> Sprint #1
+
+19/11 --> Sprint #2
+
+26/11 --> Sprint #3
+
+03/12 --> oraux blanc
 
 
 
