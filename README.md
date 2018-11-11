@@ -41,7 +41,7 @@ Lien du slide : https://docs.google.com/presentation/d/17dLgVlILcpJfaTUyccHGd9Vb
 
 ## **Cheminement** : 
 
- **Sprint #0 ------> 09/11 : **
+ **Sprint #0 ------> 09/11 :**
 
 objectif : slide présentation du projet
 
