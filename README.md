@@ -67,7 +67,7 @@ objectif : slide présentation du projet
 
 Contexte (Projet JAVA EE & API)
 
-Création du trello (Product Backlog (colonne) et Sprint Backlog (colonnes suivantes))
+Création du trello --> [ici](https://trello.com/b/asWJOTCt/certification-simplon)
 
 Liste des 4 premières features (4 user stories ou plus)
 
