@@ -71,6 +71,8 @@ Création du trello --> [ici](https://trello.com/b/asWJOTCt/certification-simplo
 
 Liste des 4 premières features (4 user stories ou plus)
 
+User journey : [ici](https://www.gloomaps.com/hcCFDZrrFq)
+
 UML (seulement la/les tables dont nous avons besoin)
 
 use case diagram (version 1.0) --> [ici](https://github.com/pierrepoulouin/Certification-API/tree/master/Ressources/US)
@@ -82,6 +84,7 @@ Maquette (seulement les pages et/ou morceaux de page utile aux 4 features)
 sur marvelapp/ pencil / etc.
 
 lien vers github/gitlab vers votre début projet spring
+
 
 
 
