@@ -3,12 +3,12 @@ Projet de certification en fin de formation chez Simplon.co. (Le readme sera ali
 
 ## Sommaire : 
 
-* [Contexte](#contexte)
-* [Compétences réalisées](#compétences-réalisées)
-* [Réalisation](#réalisation)
-* [Technologies](#technologies)
-* [Ressources](#ressources)
-* [Cheminement](#cheminement)
+* [Contexte](#Contexte)
+* [Compétences réalisées](#Compétences-réalisées)
+* [Réalisation](#Réalisation)
+* [Technologies](#Technologies)
+* [Ressources](#Ressources)
+* [Cheminement](#Cheminement)
 
 ## Contexte :
 
