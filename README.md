@@ -3,12 +3,12 @@ Projet de certification en fin de formation chez Simplon.co. (Le readme sera ali
 
 ## Sommaire : 
 
-* [Contexte](#contexte)
-* [Compétences réalisées](#compétences-réalisées)
-* [Réalisation](#réalisation)
-* [Technologies](#technologies)
-* [Ressources](#ressources)
-* [Cheminement](#cheminement)
+* [Contexte](#Contexte)
+* [Compétences réalisées](#Compétences-réalisées)
+* [Réalisation](#Réalisation)
+* [Technologies](#Technologies)
+* [Ressources](#Ressources)
+* [Cheminement](#Cheminement)
 
 ## Contexte :
 
@@ -33,7 +33,7 @@ Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines
 
 09/11 --> [Sprint #0](#Sprint-0) 
 
-12/11 - 14/11 --> Sprint #1
+12/11 - 14/11 --> [Sprint #1](#Sprint-1)
 
 19/11 - 23/11 --> Sprint #2
 
@@ -43,13 +43,17 @@ Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines
 
 ## Technologies :
 
-Langage utilisé --> Java
+Soft maquette cliquable --> marvelapp : gratuit et simple d'utilisation
 
-Framework utilisé --> Spring
+Langage utilisé --> Java 8 : langage robuste et donne une bonne sécurité. La version 9 et 10 ayant toujours des bugs la version 8 est la plus optimisée. 
+
+Framework utilisé --> Spring : Pour une bonne configuration du projet
 
 Mapping --> Hibernate
 
-IDE --> Eclipse
+BDD --> MySQL : nous pouvons creer des relations (jointures) ce qui n'est par exemple pas le cas avec MongoBD.
+
+IDE --> Eclipse : choix de préférence 
 
 ## Ressources : 
 
@@ -71,6 +75,8 @@ Création du trello --> [ici](https://trello.com/b/asWJOTCt/certification-simplo
 
 Liste des 4 premières features (4 user stories ou plus)
 
+User journey : [ici](https://www.gloomaps.com/hcCFDZrrFq)
+
 UML (seulement la/les tables dont nous avons besoin)
 
 use case diagram (version 1.0) --> [ici](https://github.com/pierrepoulouin/Certification-API/tree/master/Ressources/US)
@@ -82,6 +88,58 @@ Maquette (seulement les pages et/ou morceaux de page utile aux 4 features)
 sur marvelapp/ pencil / etc.
 
 lien vers github/gitlab vers votre début projet spring
+
+## Sprint 1 
+
+objectif 1 : API REST sur nos premières entitées, début interface accueil si possible
+
+objectif 2 : Sprint
+
+Préparation Sprint planning :
+
+- Ajouter 2 nouvelles features à la liste des 4 features (slide+Product Backlog)
+
+- Modifier UML - si besoin (seulement la/les tables dont nous avons besoin)
+
+use case diagram (version 1.1)
+
+class diagram (version 1.1)
+
+- Modifier Maquette - si besoin / ajouter les nouvelles features (seulement les pages et/ou morceaux de page utile aux nouvelles 
+
+features)
+
+sur marvelapp/ pencil / etc.
+
+Sprint Planning Sprint #1 : Écrire 4 nouvelles User Story et un Sprint Goal qui a du sens et qu’on affiche dans trello, enfin les 
+faire relire par un voisin
+
+Remplir votre trello (découpage en tâches technique)
+
+Code (visible sur github) : API REST sur vos entités avec JPARepository
+
+(Au minimum un CRUD fonctionnel sur vos entitées)
+
+image de Tests postman : une requête GET, une requête POST
+
+Review client
+
+livraison Vendredi matin avant midi
+
+Vous présenterez votre Sprint #1 à votre voisin ce même jour
+
+Rétrospective globale promo
+
+
+objectif 3 : MAJ slide (oneline) à envoyer par email le vendredi soir
+
+Résumé du Sprint #1 : les us écrites, le Sprint Goal, feedback du voisin pendant la review, action d’amélioration que vous appliquez 
+au prochain Sprint
+
+Lien et image vers votre trello (Product Backlog (colonne) et Sprint Backlog (colonnes suivantes))
+
+lien vers github/gitlab vers votre projet spring
+
 
 
 
