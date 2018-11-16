@@ -63,6 +63,8 @@ IDE --> Eclipse : choix de préférence
 
 * [Lien du slide](https://docs.google.com/presentation/d/17dLgVlILcpJfaTUyccHGd9Vb9LnV_8bpW2u6G8iZb5A/edit#slide=id.g45d92454c4_0_174.)
 
+* [Maquette cliquable](https://marvelapp.com/project/3531164/)
+
 ## Cheminement : 
 
 ## Sprint 0 
