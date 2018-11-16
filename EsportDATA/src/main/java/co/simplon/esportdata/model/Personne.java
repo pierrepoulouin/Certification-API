@@ -1,5 +1,8 @@
 package co.simplon.esportdata.model;
 
+import javax.persistence.MappedSuperclass;
+
+@MappedSuperclass
 public class Personne {
 
 	private String email;
