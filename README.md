@@ -45,9 +45,15 @@ Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines
 
 Soft maquette cliquable --> marvelapp : gratuit et simple d'utilisation
 
+Star UML --> Simple d'utilisation et gratuit
+
+Postman --> permet de faire le test des API très rapidement (sans avoir une BDD)
+
 Langage utilisé --> Java 8 : langage robuste et donne une bonne sécurité. La version 9 et 10 ayant toujours des bugs la version 8 est la plus optimisée. 
 
 Framework utilisé --> Spring : Pour une bonne configuration du projet
+
+Angular -->
 
 Mapping --> Hibernate
 
