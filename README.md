@@ -43,6 +43,8 @@ Le projet sera décomposé en 3 sprints (et un sprint 0) étendus sur 3 semaines
 
 ## Technologies :
 
+Git --> pour l'aspect versioning
+
 Soft maquette cliquable --> marvelapp : gratuit et simple d'utilisation
 
 Diagrammes UML --> Star UML : Simple d'utilisation et gratuit
