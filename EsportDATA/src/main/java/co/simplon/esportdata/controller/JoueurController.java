@@ -52,15 +52,17 @@ public class JoueurController {
 			return ResponseEntity.notFound().build();
 
 		// Update the mandatory attributes
-		/*playerToUpdate.setPseudo(joueur.getPseudo());
-		playerToUpdate.setFirstName(joueur.getFirstName());
-		playerToUpdate.setLastName(joueur.getLastName());
-		playerToUpdate.setAddress(joueur.getAddress());
-		playerToUpdate.setPhone(joueur.getPhone());
-		playerToUpdate.setBirthDate(joueur.getBirthDate());
-		playerToUpdate.setCountry(joueur.getCountry());
-		playerToUpdate.setPrizeList(joueur.getPrizeList());
-		playerToUpdate.setSalary(joueur.getSalary()); */
+		/*
+		 * playerToUpdate.setPseudo(joueur.getPseudo());
+		 * playerToUpdate.setFirstName(joueur.getFirstName());
+		 * playerToUpdate.setLastName(joueur.getLastName());
+		 * playerToUpdate.setAddress(joueur.getAddress());
+		 * playerToUpdate.setPhone(joueur.getPhone());
+		 * playerToUpdate.setBirthDate(joueur.getBirthDate());
+		 * playerToUpdate.setCountry(joueur.getCountry());
+		 * playerToUpdate.setPrizeList(joueur.getPrizeList());
+		 * playerToUpdate.setSalary(joueur.getSalary());
+		 */
 
 		// Update all other not null attributes
 		if (joueur.getPseudo() != null)
@@ -88,7 +90,7 @@ public class JoueurController {
 			playerToUpdate.setPrizeList(joueur.getPrizeList());
 
 		if (joueur.getSalary() != 0)
-			playerToUpdate.setSalary(joueur.getSalary()); 
+			playerToUpdate.setSalary(joueur.getSalary());
 
 		Joueur updatedPlayer = playerRepo.save(playerToUpdate);
 		return ResponseEntity.ok(updatedPlayer);

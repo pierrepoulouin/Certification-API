@@ -1,5 +1,6 @@
 package co.simplon.esportdata.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,12 +12,13 @@ public class Joueur extends Personne {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO) // Permet de faire l'auto_increment
+	@Column
 	private long playerID;
-	
+	@Column
 	private String country;
-	
+	@Column
 	private String prizeList;
-	
+	@Column
 	private double salary;
 
 	public long getPlayerID() {

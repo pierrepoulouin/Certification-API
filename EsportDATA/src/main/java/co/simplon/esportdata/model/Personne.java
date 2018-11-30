@@ -1,6 +1,7 @@
 package co.simplon.esportdata.model;
 
 import javax.persistence.Basic;
+import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.MappedSuperclass;
@@ -14,15 +15,21 @@ public class Personne {
 
 	@NotNull
 	@GeneratedValue(strategy = GenerationType.AUTO) // Permet de faire l'auto_increment
+	@Column
 	private long personneID; 
-	
+	@Column
 	private String pseudo;
+	@Column
 	private String firstName;
+	@Column
 	private String lastName;
+	@Column
 	private String address;
+	@Column
 	private String phone;
 	@Basic
 	@Temporal(TemporalType.DATE)
+	@Column
 	private java.util.Date birthDate;
 
 	public long getPersonneID() {
