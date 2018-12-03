@@ -85,6 +85,9 @@ public class JoueurController {
 
 		if (joueur.getCountry() != null)
 			playerToUpdate.setCountry(joueur.getCountry());
+		
+		if(joueur.getGame() != null)
+			playerToUpdate.setGame(joueur.getGame());
 
 		if (joueur.getPrizeList() != null)
 			playerToUpdate.setPrizeList(joueur.getPrizeList());

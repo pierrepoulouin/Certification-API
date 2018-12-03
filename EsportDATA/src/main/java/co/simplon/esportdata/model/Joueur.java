@@ -17,6 +17,8 @@ public class Joueur extends Personne {
 	@Column
 	private String country;
 	@Column
+	private String game;
+	@Column
 	private String prizeList;
 	@Column
 	private double salary;
@@ -35,6 +37,14 @@ public class Joueur extends Personne {
 
 	public void setCountry(String country) {
 		this.country = country;
+	}
+
+	public String getGame() {
+		return game;
+	}
+
+	public void setGame(String game) {
+		this.game = game;
 	}
 
 	public String getPrizeList() {
