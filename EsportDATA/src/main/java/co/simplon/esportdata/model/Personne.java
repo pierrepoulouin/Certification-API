@@ -16,7 +16,7 @@ public class Personne {
 	@NotNull
 	@GeneratedValue(strategy = GenerationType.AUTO) // Permet de faire l'auto_increment
 	@Column
-	private long personneID; 
+	private long personID; 
 	@Column
 	private String pseudo;
 	@Column
@@ -32,12 +32,12 @@ public class Personne {
 	@Column
 	private java.util.Date birthDate;
 
-	public long getPersonneID() {
-		return personneID;
+	public long getPersonID() {
+		return personID;
 	}
 
-	public void setPersonneID(long personneID) {
-		this.personneID = personneID;
+	public void setPersonID(long personID) {
+		this.personID = personID;
 	} 
 
 	public String getPseudo() {
