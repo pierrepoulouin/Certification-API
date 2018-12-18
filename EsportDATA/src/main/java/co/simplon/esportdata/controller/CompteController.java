@@ -18,18 +18,34 @@ import org.springframework.web.bind.annotation.RestController;
 import co.simplon.esportdata.model.Compte;
 import co.simplon.esportdata.repository.CompteRepository;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class CompteController.
+ */
 @RestController
 @RequestMapping("/api")
 public class CompteController {
 
+	/** The account repo. */
 	@Autowired
 	CompteRepository accountRepo;
 
+	/**
+	 * Gets the all account.
+	 *
+	 * @return the all account
+	 */
 	@GetMapping("/compte")
 	List<Compte> getAllAccount() {
 		return accountRepo.findAll();
 	}
 
+	/**
+	 * Gets the account by id.
+	 *
+	 * @param accountID the account ID
+	 * @return the account by id
+	 */
 	@GetMapping("/compte/{accountID}")
 	ResponseEntity<Compte> getAccountById(@PathVariable long accountID) {
 		Compte compte = accountRepo.findOne(accountID);
@@ -39,11 +55,24 @@ public class CompteController {
 		return ResponseEntity.ok().body(compte);
 	}
 
+	/**
+	 * Adds the account.
+	 *
+	 * @param compte the compte
+	 * @return the compte
+	 */
 	@PostMapping("/compte/add")
 	Compte addAccount(@Valid @RequestBody Compte compte) {
 		return accountRepo.save(compte);
 	}
 
+	/**
+	 * Update account.
+	 *
+	 * @param accountID the account ID
+	 * @param compte the compte
+	 * @return the response entity
+	 */
 	@PutMapping("/compte/update/{accountID}")
 	ResponseEntity<Compte> updateAccount(@PathVariable long accountID, @Valid @RequestBody Compte compte) {
 		Compte accountToUpdate = accountRepo.findOne(accountID);
@@ -59,6 +88,12 @@ public class CompteController {
 
 	}
 
+	/**
+	 * Delete account.
+	 *
+	 * @param accountID the account ID
+	 * @return the response entity
+	 */
 	@DeleteMapping("/compte/delete/{accountID}")
 	ResponseEntity<Compte> deleteAccount(@PathVariable long accountID) {
 		Compte compte = accountRepo.findOne(accountID);

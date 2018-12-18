@@ -1,0 +1,3 @@
+CREATE TABLE utilisateur(
+userid INT(20) PRIMARY KEY NOT NULL AUTO_INCREMENT, 
+)

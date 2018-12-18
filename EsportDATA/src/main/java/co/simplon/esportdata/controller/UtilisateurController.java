@@ -17,18 +17,34 @@ import org.springframework.web.bind.annotation.RestController;
 import co.simplon.esportdata.model.Utilisateur;
 import co.simplon.esportdata.repository.UtilisateurRepository;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class UtilisateurController.
+ */
 @RestController
 @RequestMapping("/api")
 public class UtilisateurController {
 
+	/** The user repo. */
 	@Autowired
 	UtilisateurRepository userRepo;
 
+	/**
+	 * Gets the all users.
+	 *
+	 * @return the all users
+	 */
 	@GetMapping("/utilisateur")
 	List<Utilisateur> getAllUsers() {
 		return userRepo.findAll();
 	}
 
+	/**
+	 * Gets the user by id.
+	 *
+	 * @param userID the user ID
+	 * @return the user by id
+	 */
 	@GetMapping("/utilisateur/{userID}")
 	ResponseEntity<Utilisateur> getUserById(@PathVariable long userID) {
 		Utilisateur utilisateur = userRepo.findOne(userID);
@@ -38,6 +54,12 @@ public class UtilisateurController {
 		return ResponseEntity.ok().body(utilisateur);
 	}
 
+	/**
+	 * Adds the user.
+	 *
+	 * @param utilisateur the utilisateur
+	 * @return the utilisateur
+	 */
 	@PostMapping("/utilisateur/add")
 	Utilisateur addUser(@Valid @RequestBody Utilisateur utilisateur) {
 		return userRepo.save(utilisateur);

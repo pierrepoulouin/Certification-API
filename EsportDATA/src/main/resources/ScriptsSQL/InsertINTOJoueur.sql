@@ -1,0 +1,2 @@
+INSERT INTO joueur (address,birth_date,first_name,last_name,phone,pseudo,country,prize_list,salary,game)
+VALUES ( '12 rue des immeubles cassés','1980-08-16','Doudri','Vanessa','0635253058','pouet','France','Dreamhack 2018', 1000, 'League of Legends');

@@ -5,8 +5,9 @@ import java.util.List;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,18 +20,35 @@ import org.springframework.web.bind.annotation.RestController;
 import co.simplon.esportdata.model.Joueur;
 import co.simplon.esportdata.repository.JoueurRepository;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class JoueurController.
+ */
+@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/api")
 public class JoueurController {
 
+	/** The player repo. */
 	@Autowired
 	JoueurRepository playerRepo;
 
+	/**
+	 * Gets the all players.
+	 *
+	 * @return the all players
+	 */
 	@GetMapping("/joueur")
 	List<Joueur> getAllPlayers() {
 		return playerRepo.findAll();
 	}
 
+	/**
+	 * Gets the player by id.
+	 *
+	 * @param playerID the player ID
+	 * @return the player by id
+	 */
 	@GetMapping("/joueur/{playerID}")
 	ResponseEntity<Joueur> getPlayerById(@PathVariable long playerID) {
 		Joueur joueur = playerRepo.findOne(playerID);
@@ -40,11 +58,27 @@ public class JoueurController {
 		return ResponseEntity.ok().body(joueur);
 	}
 
+	/**
+	 * Adds the player.
+	 *
+	 * @param joueur the joueur
+	 * @return the joueur
+	 */
 	@PostMapping("/joueur/add")
 	Joueur addPlayer(@Valid @RequestBody Joueur joueur) {
-		return playerRepo.save(joueur);
+		
+		Joueur playerAdd = playerRepo.save(new Joueur(joueur.getPseudo(),joueur.getGame(),
+				joueur.getCountry(),joueur.getPrizeList(),joueur.getSalary()));
+		return playerAdd;
 	}
 
+	/**
+	 * Update player.
+	 *
+	 * @param playerID the player ID
+	 * @param joueur the joueur
+	 * @return the response entity
+	 */
 	@PutMapping("/joueur/update/{playerID}")
 	ResponseEntity<Joueur> updatePlayer(@PathVariable long playerID, @Valid @RequestBody Joueur joueur) {
 		Joueur playerToUpdate = playerRepo.findOne(playerID);
@@ -99,14 +133,32 @@ public class JoueurController {
 		return ResponseEntity.ok(updatedPlayer);
 	}
 
+	/**
+	 * Delete player.
+	 *
+	 * @param playerID the player ID
+	 * @return the response entity
+	 */
 	@DeleteMapping("/joueur/delete/{playerID}")
 	ResponseEntity<Joueur> deletePlayer(@PathVariable long playerID) {
+		
 		Joueur joueur = playerRepo.findOne(playerID);
 		if (joueur == null)
 			return ResponseEntity.notFound().build();
+		
+		//Display delete
+		System.out.println("Delete player with ID = " + playerID);
 
 		playerRepo.delete(joueur);
 		return ResponseEntity.ok().build();
+	}
+	
+	@DeleteMapping("/joueur/delete")
+	public ResponseEntity<Joueur> deleteAllPlayer() {
+		System.out.println("Delete All Players ! ");
+		playerRepo.deleteAll();
+		
+		return new ResponseEntity<Joueur>( HttpStatus.OK);
 	}
 
 }
